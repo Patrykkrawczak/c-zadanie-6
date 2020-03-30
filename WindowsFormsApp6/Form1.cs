@@ -102,7 +102,7 @@ namespace WindowsFormsApp6
                 single.X1 = rmd.Next(0, 50);
                 single.X2 = rmd.Next(50, 100);
                 old_i = 0;
-                for (double i = 0.0F; i <= 100.0; i = i + 100F / n)
+                for (double i = single.X1; i <= single.X2; i = i + 100F / n)
                 {
 
                     licz += 1;
@@ -116,7 +116,7 @@ namespace WindowsFormsApp6
                 single.X1 = rmd.Next(0, 50);
                 single.X2 = rmd.Next(50, 100);
                 old_i = 0;
-                for (double i = 0.0F; i <= 100.0; i = i + 100F / n)
+                for (double i = single.X1; i <= single.X2; i = i + 100F / n)
                 {
 
                     licz += 1;
